@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    border: 2px solid red;
+    width: 85%;
+    margin: auto; /*Középre igazítunk*/
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 30px;
+    height: 500px;
+    align-items: flex-end;
+    /*flex-direction: column; */
+}
+
+.cikk{
+    border: 2px dashed blue;
+    flex-grow: 0;
+    flex-shrink: 0; 
+    flex-basis: 200px; 
+    /*flex: 0 0 200px; */
+}
+
