@@ -14,14 +14,14 @@
     gap: 15px;
     padding: 30px;
     height: 500px;
-    align-items: flex-end;
+    align-items: center;
     /*flex-direction: column; */
 }
 
 .cikk{
     border: 2px dashed blue;
-    flex-grow: 0;
-    flex-shrink: 0; 
+    flex-grow: 1;
+    flex-shrink: 1; 
     flex-basis: 200px; 
     /*flex: 0 0 200px; */
 }
